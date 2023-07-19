@@ -60,14 +60,59 @@
             <div class="container">
                 <div class="row hackerFont">
                     <div class="col-xl-12">
-                        <h1 class="display-1 bold color_white content__title">Welcome to <span class="vim-caret">&nbsp;</span>INSEC CTF</h1>
+                        <h1 class="display-1 bold color_white content__title">WELCOME <span class="vim-caret">TO&nbsp;</span>INSEC</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-11">
-                        <p class="mt-3 text-white text-spacey hackerFont lead">
-                            Une plateforme pour tester et améliorer vos compétences en cybersécurité.
-                        </p>
+                    <div class="col-xl-12">
+                        <center><p class="mt-3 text-white bold hackerFont lead">
+                            Apprenez des nouvelles notions<br>
+                            En réalisant des challenges dans différentes catégories
+                        </p></center> <br>
+                    <div class="cardContainer">
+                        <a draggable="false" href="/QUEST/">
+                            <div class="card">
+                            <img draggable="false" src="static/images/chall-web.svg">
+                            <p>Web</p>
+                        </div>
+                        </a>
+                        <a draggable="false" href="/challenges/steganographie/">
+                            <div class="card">
+                                <img draggable="false" src="static/images/chall-steganographie.svg">
+                                    <p>Stéganographie</p>
+                    </div>
+                        </a>
+                        <a draggable="false" href="/challenges/cryptographie/">
+                        <div class="card">
+                            <img draggable="false" src="static/images/chall-cryptographie.svg">
+                            <p>Cryptographie</p>
+                            </div>
+                            </a>
+                            <a draggable="false" href="/challenges/reverse/">
+                            <div class="card">
+                            <img draggable="false" src="static/images/chall-reverse.svg">
+                            <p>Reverse</p>
+                            </div>
+                            </a>
+                            </a>
+                            <a draggable="false" href="/challenges/forensic/">
+                            <div class="card">
+                            <img draggable="false" src="static/images/chall-forensic.svg">
+                            <p>Forensic</p>
+                            </div>
+                            </a>
+                            <a draggable="false" href="/challenges/pwn/">
+                            <div class="card">
+                            <img draggable="false" src="static/images/chall-pwn.svg">
+                            <p>Pwn</p>
+                            </div>
+                            </a>
+                            <a draggable="false" href="/challenges/divers/">
+                            <img draggable="false" src="static/images/chall-divers.svg">
+                            <p>Divers</p>
+                            </div>
+                            </a>
+                            </div>
                         <button class="btn btn-outline-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left typewriter" onclick="location.href = '{% url 'login1' %}';">
                             <h4>Connexion</h4>
                         </button>
