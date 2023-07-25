@@ -60,16 +60,16 @@
             <div class="container">
                 <div class="row hackerFont">
                     <div class="col-xl-12">
-                        <h1 class="display-1 bold color_white content__title">WELCOME <span class="vim-caret">TO&nbsp;</span>INSEC</h1>
+                        <center><h1 class="display-1 bold color_white content__title">WELCOME <span class="vim-caret">TO&nbsp;</span>INSEC</h1></center>
                     </div>
-                </div>
+                </div><br>
                 <div class="row">
                     <div class="col-xl-12">
                         <center><p class="mt-3 text-white bold hackerFont lead">
                             Apprenez des nouvelles notions<br>
                             En réalisant des challenges dans différentes catégories
                         </p></center> <br>
-                    <div class="cardContainer">
+                    {% comment %} <div class="cardContainer">
                         <a draggable="false" href="/QUEST/">
                             <div class="card">
                             <img draggable="false" src="static/images/chall-web.svg">
@@ -112,10 +112,10 @@
                             <p>Divers</p>
                             </div>
                             </a>
-                            </div>
-                        <button class="btn btn-outline-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left typewriter" onclick="location.href = '{% url 'login1' %}';">
+                            </div> {% endcomment %}
+                         <center><button class="btn btn-outline-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left typewriter" onclick="location.href = '{% url 'login1' %}';">
                             <h4>Connexion</h4>
-                        </button>
+                        </button> </center>
                     </div>
                 </div>
             </div>
